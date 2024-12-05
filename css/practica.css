@@ -21,7 +21,7 @@
     font-style: normal;
   }
   
-
+/** NAVBAR _COSITAS**/
 .nav_color{
     background-color: #232536;
 }
@@ -99,6 +99,35 @@
     line-height: 24px;
     color:  #FFFFFF ;
 }
-
-
 **/
+/** IMAGEN DE FONDO_EN BODY-EN -EL HOME **/
+.layout{
+    background-image: url(../img/coche_imagen_fondo.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.layout::after{
+    content: "";
+    position: absolute;
+    width: 1220px;
+    height: 594px;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    z-index: 1;
+}
+
+.text_intro{
+    z-index: 2;
+    padding-left: 50px;
+    padding-top: 77px;
+    padding-bottom: 5px;
+    padding-right: 516px;
+}
