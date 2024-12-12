@@ -115,7 +115,7 @@
     content: "";
     position: absolute;
     width: 1220px;
-    height: 594px;
+    height: 700px;
     padding-top: 80px;
     padding-left: 0;
     padding-right: 20px;
@@ -138,4 +138,33 @@
     height: 100px;
     top: 447px;
     padding-left: 50px;
+}
+
+.buton_format{
+    z-index: 2;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    width: 186px;
+    height: 60.05px;
+    top: 577px;
+    left: 51px;
+    border-radius: 10px;
+}
+/**COntenido del blog*/
+.img_blog{
+    width: 626px;
+    height: 369px;
+    top: 868px;
+    left: 77px;
+}
+
+.buton_blog{
+    z-index: 2;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    width: 280px;
+    height: 61px;
+    top: 1554px;
+    left: 77px;
+    border-radius: 10px;
 }
