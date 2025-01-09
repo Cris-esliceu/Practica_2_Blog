@@ -130,6 +130,7 @@
     padding-top: 77px;
     padding-bottom: 5px;
     padding-right: 516px;
+    margin-bottom: 50px;
 }
 
 .text_intro{
@@ -204,7 +205,9 @@
     width: 1180px;
     height: 450.67px;
     top: 1673px;
-    left: 51px;       
+    left: 51px;   
+    margin-top: 70px;    
+    margin-bottom: 70px;
 }
 
 .newtech_container{
@@ -224,6 +227,8 @@
     top: 69px;
     left: 16px;
     border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .img_newtechsm{
@@ -240,29 +245,36 @@
         margin-right: 10px;
     }
 
+    .col-md-6 {
+        margin-left: 10px;
+    }
+
+
     .row{
         margin-left: 50px;
     }
     /****A continucaion viene ALL CATEGORY ****/
 
     .category{
-    width: 1309px;
-    height: 415px;
-    top: 2190px;
-    left: 3px;
-    gap: 0px;
-    opacity: 0px;
+        width: 1309px;
+        height: 415px;
+        top: 2190px;
+        left: 3px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+      /**  border-top: 1px solid #2325364D; --> (aun no me va bien tengo que arreglar cositas) **/
     }
 
     .group_9{
         width: 255px;
         height: 266px;
-        top: 131px;
+        top: 145px;
         left: 50px;
         border-radius: 10px;
         background-color:#F4F0F8;
         justify-items: center;
     }
+
     .group_10{
         width: 255px;
         height: 266px;
@@ -271,7 +283,8 @@
         border-radius: 10px;
         background-color:#F4F0F8;
         justify-items: center;  
-    }   
+    }
+
     .group_11{
         width: 255px;
         height: 266px;
@@ -290,7 +303,6 @@
         border-radius: 10px;
         background-color:#F4F0F8;
         justify-items: center; 
-        
     }
 
     .imgcat{
@@ -301,19 +313,89 @@
         gap: 0px;
         opacity: 0px;
         border-radius: 50px;
+        margin: 20px;
     }
     
     .titol_category_9{
-    width: 127px;
-    height: 30px;
-    top: 261px;
-    left: 114px;
-    color: #000000;
+        width: 127px;
+        height: 30px;
+        top: 261px;
+        left: 114px;
+        color: #000000;
     }
 
     .text_category{
-    width: 230px;
-    height: 63px;
-    top: 306px;
-    left: 63px;
+        width: 230px;
+        height: 63px;
+        top: 306px;
+        left: 63px;
     }
+
+
+    /****A continucaion viene TESTIMONIAL ****/
+    .testimonial{
+        width: 1280px;
+        height: 392px;
+        top: 2671px;    
+        margin-top: 70px;
+        margin-bottom: 50px;
+        background-color: #232536;
+        color: #F4F0F8;
+      }
+
+      .container_testimonial_1{
+        width: 321.95px;
+        height: 228px;
+        top: 2757px;
+        left: 153px;    
+      }
+
+      .text_testimonial{
+        width: 162px;
+        height: 20px;
+        top: 2757px;
+        left: 153px;
+        margin-top: 80px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        }
+
+      .imgtestimonial{
+        width: 44.25px;
+        height: 48px;
+        top: 2945px;
+        left: 637.19px;
+        gap: 0px;
+        border-radius: 16px;
+      }
+
+      .container_testimonial_2{
+        width: 494.81px;
+        height: 323px;
+        top: 2710px;
+        left: 637.19px;
+          }
+
+      .arrow_left{
+        width: 48px;
+        height: 48px;
+        top: 2993px;
+        left: 1048.32px;
+        border-radius: 50px;        
+        }
+
+      .arrow_right{
+        width: 62px;
+        height: 62px;
+        top: 2938px;
+        left: 1070px;
+        border-radius: 50px;
+        background-color: #FF5959;
+    
+      }
